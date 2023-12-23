@@ -1,7 +1,6 @@
 pipeline {
  environment {
  registry = "kohinour/tp4"
- registryCredential = 'dockerhub'
  dockerImage = ''
  }
  agent any
